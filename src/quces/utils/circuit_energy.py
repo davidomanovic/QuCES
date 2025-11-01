@@ -1,4 +1,4 @@
-# src/utils/circuit_energy.py
+# src/quces/utils/circuit_energy.py
 from __future__ import annotations
 
 from typing import Iterable, Mapping, Any, Optional

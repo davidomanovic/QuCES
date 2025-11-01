@@ -1,4 +1,4 @@
-# src/yourlib/quantum/ucj.py
+# src/quces/utils/ucj.py
 from __future__ import annotations
 
 from typing import Callable
@@ -11,7 +11,7 @@ from qiskit import QuantumCircuit, QuantumRegister
 from qiskit_aer import AerSimulator
 from qiskit.quantum_info import SparsePauliOp
 
-from fqcsim.utils import circuit_energy
+from quces.utils import circuit_energy
 
 def ucj_param_energy(
     simulator: AerSimulator,

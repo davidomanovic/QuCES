@@ -3,8 +3,7 @@ import math
 from qiskit.circuit import QuantumCircuit
 from qiskit.quantum_info import SparsePauliOp
 from qiskit_aer import AerSimulator
-from fqcsim.utils import circuit_energy
-
+from quces.utils import circuit_energy
 
 def test_energy_z_on_zero():
     sim = AerSimulator(method="statevector")
